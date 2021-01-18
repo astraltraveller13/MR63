@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Shows</title>
+<link rel="shortcut icon" type="image/jpg" href="/assets/logoblue.png"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Montserrat", sans-serif}
+</style>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K9JN3G11GD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K9JN3G11GD');
+</script>
+  <!--hello i made dis AEM -->
+</head>
+<body>
+
+<!-- Navbar -->
+<style>
+
+html{
+  padding-bottom: 150px;
+  margin-bottom:150px;}
+
+body {
+  margin: 0; 
+  background-color:black;
+  background-image: url('/assets/a3333.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top:50px;
+  background-color: none;
+  position: fixed;
+  height: 30%;
+}
+
+    li a {
+      text-shadow: 2px 5px 0px black, 1px 3px 0px black, -3px -1px black, 0px -2px 0px black;
+      padding: 0px 6px 0px 32px;
+      text-decoration: none;
+      font-family: "Haettenschweiler"; 
+      font-size: 50px;
+      color: #1c63b7a1;
+    }
+
+
+li a.active {
+  background-color: none;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: none;
+  color: white;
+}
+@media only screen and (max-width:500px){
+  body {
+        font-size: 80px;
+        padding-left:0px;
+        display:block;
+        margin: 0; 
+        background-color:black;
+        background-size:auto;
+        background-repeat:no-repeat;
+
+
+  }
+  body a{
+    font-size: 30px;
+  }
+
+li a{padding-left:10px;}
+
+}
+</style>
+<body>
+
+<ul>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/shows">Shows</a></li>
+  <li><a href="/media">Media</a></li>
+  <li><a href="/home#contact">Contact</a></li>
+</ul>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; box-sizing:200px;">
+  <a href="#about">About</a>
+  <a href="#shows">Shows</a>
+  <a href="#media">Media</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- Page content -->
+<div class="mainbox">
+
+  <!-- The Band Section -->
+   <div class="maintext1" style="max-width:80%; padding-left:30%;text-align:center">
+   <h2 class= "title2">Shows</h2>
+    <style> 
+    .mainbox{max-width:93%;}
+    .title2{
+      text-shadow: 2px 5px 0px black, 5px -1px black, -6px 0px black, 1px -5px 0px black;
+      margin-top: 0;
+      font-family:"Haettenschweiler";
+      font-size:150px;
+      text-align:center; 
+      text-align:top; 
+      color:white
+        }
+  @media only screen and (max-width:500px){
+    .title2 {
+      font-size:60px; 
+      text-align:center;
+      padding-left:0%;
+        }
+    </style>
+      </div>
+  <div class="showbox" style="display:block;">
+    <div class=" subbox">
+      <h3 class="year" style="color:white">2021</h3>
+           <style>
+        .showbox {margin-left: 20%}
+        .year {font-size:50px; font-weight:bold;}
+        .subbox{"width:100%;font-color:black;padding-left: 75px;"}
+         
+         @media only screen and (max-width:500px){
+        .year.showtitle{
+        font-size:30px;
+        display:block;}
+        .showbox{margin-left:27%; padding-right: 50px}
+        .year.showtitle a {color:white;}
+        .subbox{padding-left:0px; padding-right:;}
+      }
+      </style>
+      <ul class="calendarbox" style=" padding-bottom:30px; display:block">
+        <li class="showmonth">Month</li>
+        <table>
+          <tr>
+            <td class="showday">Day</td>
+            <td class="showdest">Location</td>
+          </tr><!--
+            <td class="showday">10</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+        </table>
+        <li class="showmonth">October</li>
+        <table>
+          <tr>
+            <td class="showday">1</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+        </table>
+        <li class="showmonth">November</li>
+        <table>
+          <tr>
+            <td class="showday">1</td>
+            <td class="showdest">Moon Stadium, The Moon</td> -->
+          </tr>
+        </table>
+          <style>
+           tr {color:black;}
+          .calendarbox{width:100%; padding-top:20px;margin-left:0; background-color:white; border-color:black; position:relative;}
+          .showday{font-size: 20px; font-weight:bold;text-align:left; padding-left:20px; display:block;}
+          
+          .showdest{font-size:20px; padding-left: 100px;text-align:center} 
+          .showmonth{font-size: 25px; text-align:center; font-weight:bold;}
+          .showmonth a {color:black;}
+          .calendarlist{padding-bottom:50px; display:block;font-color:black;}
+          .custrow {text-align:center;}
+
+@media only screen and (max-width:500px){
+          .calendarbox{width:130%; margin-left:5px; padding-top:10px; background-color:white; border-color:black; position:relative;}
+          .showday{font-size: 15px; min-width: 44px;
+    font-weight:bold;text-align:left; padding-left:5px; display:block;}
+          
+          .showdest{font-size:13px; padding-left: 0px;text-align:left} 
+          .showmonth{font-size: 25px; text-align:center; font-weight:bold;}
+          .calendarlist{padding-bottom:20px; display:block;font-color:black;}
+          .custrow {text-align:left;}}
+
+        </style>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mainbox">
+       <!-- PREV Tour Section --><!--
+  <div class="showbox" style="display:block;">
+  <div class=" subbox">
+      <h2 class="w3-wide w3-center showtitle" style="color:white">Previous Shows</h2>
+      <h3 class="year" style="color:white">2020</h3>
+      <style>
+        .mainbox{max-width:93%;}
+        .showbox {margin-left: 20%}
+        .year {font-size:50px; font-weight:bold;}
+        .subbox{"width:100%;font-color:black;padding-left: 75px;"}
+         
+         @media only screen and (max-width:500px){
+        .year.showtitle{
+        font-size:30px;
+        display:block;}
+        .showbox{
+          margin-left:27%;    
+          padding-right: 67px;}
+        .year.showtitle a {color:white;}
+        .subbox{padding-left:0px; padding-right:;}
+      }
+      </style>
+      <ul class="calendarbox" style=" padding-bottom:30px; display:block">
+        <li class="showmonth">September</li>
+        <table>
+          <tr>
+            <td class="showday">1</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+            <td class="showday">10</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+        </table>
+        <li class="showmonth">October</li>
+        <table>
+          <tr>
+            <td class="showday">1</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+        </table>
+        <li class="showmonth">November</li>
+        <table>
+          <tr>
+            <td class="showday">1</td>
+            <td class="showdest">Moon Stadium, The Moon</td>
+          </tr>
+        </table>
+          <style>
+           tr {color:black;}
+          .calendarbox{width:100%; padding-top:20px;margin-left:0; background-color:white; border-color:black; position:relative;}
+          .showday{font-size: 20px; font-weight:bold;text-align:left; padding-left:20px; display:block;min-width: 44px;
+    }
+          
+          .showdest{font-size:20px; padding-left: 100px;text-align:center} 
+          .showmonth{font-size: 25px; text-align:center; font-weight:bold;}
+          .showmonth a {color:black;}
+          .calendarlist{padding-bottom:50px; display:block;font-color:black;}
+          .custrow {text-align:center;}
+
+@media only screen and (max-width:500px){
+          .calendarbox{width:130%; margin-left:5px; padding-top:10px; background-color:white; border-color:black; position:relative;}
+          .showday{font-size: 15px; font-weight:bold;text-align:left; padding-left:5px; display:block;}
+          
+          .showdest{font-size:13px; padding-left: 0px;text-align:left} 
+          .showmonth{font-size: 25px; text-align:center; font-weight:bold;}
+          .calendarlist{padding-bottom:20px; display:block;font-color:black;}
+          .custrow {text-align:left;}}
+
+        </style>
+      </ul>
+    </div>
+  </div>
+</div> -->
+    </div>
+  </div>
+
+</script>
+
+</body>
+</html>
